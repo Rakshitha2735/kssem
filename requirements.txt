@@ -17,7 +17,7 @@ tqdm  # Progress bar for long-running tasks
 # Text Processing (Optional, if needed)  
 nltk  # Natural Language Toolkit for text cleaning  
 
-faiss-cpu==1.7.4
+faiss-cpu
 sentence-transformers
 numpy
 
