@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 st.set_page_config(page_title="🎓𝙲𝚊𝚖𝚙𝚞𝚜𝙼𝚊𝚝𝚎", layout="wide")
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyChUzmOrRlZRCtmY7nv90suM86bcUj1z58")  # Replace with your actual key
+genai.configure(api_key="AIzaSyBEJ50YA6Kr3pfkq4mZi7FK1pNHUn_M_Rs")  # Replace with your actual key
 
 # Load FAISS index & text mappings
 index = faiss.read_index("dataset/faiss_index_cleaned.bin")
